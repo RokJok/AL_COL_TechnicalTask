@@ -1,0 +1,25 @@
+/.alpackages
+/.snapshots
+/.vscode
+/app.json
+/Default publisher_AL_ColumbusStartWithPages_1.0.0.0.app
+# Exclude dot-files and dot-directories
+.*
+# Exclude all app files
+*.app
+
+# Reapply rules to .vscode
+!**/.vscode/
+# Exclude all files from .vscode
+**/.vscode/*
+# Include folder settings.json
+!**/.vscode/settings.json
+
+# Keep .NET packages
+!**/.netpackages
+
+# Include .gitignore
+!.gitignore
+
+# Exclude global translation
+*.g.xlf

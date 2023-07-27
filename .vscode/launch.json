@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "AKADEV60",
+            "tenant": "a3f929b6-6023-47ed-a41b-de3e57c0d801",
+            // "startupObjectId": 50123,
+            // "startupObjectType": "Page",
+            // "schemaUpdateMode": "ForceSync",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
